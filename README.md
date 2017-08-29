@@ -4,12 +4,6 @@ This peer assessed assignment has two parts. First, you will create a Shiny appl
 
 Your Shiny Application
 
-Write a shiny application with associated supporting documentation. The documentation should be thought of as whatever a user will need to get started using your application.
-Deploy the application on Rstudio's shiny server
-Share the application link by pasting it into the provided text box
-Share your server.R and ui.R code on github
-The application must include the following:
-
 Some form of input (widget: textbox, radio button, checkbox, ...)
 Some operation on the ui input in sever.R
 Some reactive output displayed as a result of server calculations
@@ -21,37 +15,13 @@ Your Reproducible Pitch Presentation
 
 OK, you've made your shiny app, now it's time to make your pitch. You get 5 slides (inclusive of the title slide) to pitch a your app. You're going to create a web page using Slidify or Rstudio Presenter with an html5 slide deck.
 
-Here's what you need
-
-5 slides to pitch our idea done in Slidify or Rstudio Presenter
-Your presentation pushed to github or Rpubs
-A link to your github or Rpubs presentation pasted into the provided text box
-Your presentation must satisfy the following
-
 It must be done in Slidify or Rstudio Presenter
 It must be 5 pages
 It must be hosted on github or Rpubs
 It must contained some embedded R code that gets run when slidifying the document
 NOTE: Slidify is no longer compatible with with Rpubs. If you choose to use Slidify you must share your presentation using GitHub Pages.
 
-Notice to publish your slidify presentation to github or Rpubs, there's the publish command. This link outlines how to do it (it's one line).
-
 http://slidify.org/publish.html
-
-Rstudio presenter has a button to publish directly to Rpubs https://support.rstudio.com/hc/en-us/articles/200714023-Displaying-and-Distributing-Presentations. If you are using Rpubs, put in the link to the presentation into the submission box as a http:// link not a https:// link.
-
-You can also publish using both formats to github manually using gh-pages, though your github branch must have a .nojekyll fle and be on a branch names gh-pages. There's more on gh-pages here https://pages.github.com/ and there is a video lecture outlining how to do this.
-Review criterialess 
-Your Shiny Application
-
-Was there enough documentation on the shiny site for a user to get started using the application?
-Did the application run as described in the documentation?
-Was there some form of widget input (slider, textbox, radio buttons, checkbox, ...) in either ui.R or a custom web page?
-Did server.R perform some calculations on the input in server.R?
-Was the server calculation displayed in the html page?
-Was the app substantively different than the very simple applications built in the class? Note, it's OK if the app is simple and based on the one presented in class. I just don't want it to be basically a carbon copy of the examples we covered. For example, if someone simply changed the variable names, then this would not count. However, a prediction algorithm that had a similar layout would be fine.
-Here's your opportunity to give the app +1 for being well done, or neat, or even just a solid effort.
-Your Reproducible Pitch
 
 Was the presentation completed in slidify or R Presenter?
 Was it 5 pages?
